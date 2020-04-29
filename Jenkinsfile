@@ -1,6 +1,6 @@
 node {
   def project = 'neargrocery'
-  def appName = 'usuario-service'
+  def appName = 'usuario-service-cmd'
   def feSvcName = "${appName}-backend"
   def imageTag = "192.168.99.100:5000/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
