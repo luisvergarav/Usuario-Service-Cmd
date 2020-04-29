@@ -6,7 +6,7 @@ replicaCount: 1
 namespace : neargrocery-development
 image:
   repository: 192.168.99.100:5000/neargrocery/usuario-service-cmd
-  tag: dev.03
+  tag: 
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
