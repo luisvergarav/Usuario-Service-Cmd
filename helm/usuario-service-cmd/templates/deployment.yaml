@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: "usuario-service-cmd-container"
-          image: {{ .Values.image.repository }}:{{ .Values.image.tag  }}
+          image: {{ .Values.image.repository }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: MYSQL_HOST
